@@ -1,0 +1,47 @@
+body {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  background: white;
+  
+}
+.container{
+  width: 320px;
+  min-height: 300px;
+}
+input{
+  min-width: 186px;
+}
+.title{
+  width: 54px;
+  display: inline-block;
+}
+button{
+  background-color: #0b8e58;
+    color: #fff;
+    border: 1px solid;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+.copy{
+  max-width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 3px;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.block{
+  flex: 1;
+  height: 50px;
+  max-height: 50px;
+  margin: 20px;
+  font-size: 25px;
+}

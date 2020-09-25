@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Dni utils</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="iban.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+<div class="container">
+    <div class="block" id="nifBlock">
+        <span class="title">NIF</span>
+        <input type="text" id="nif" name="nif"><img src="clipboard.png" class="copy" title="click to copy">
+        <button id="btnNif">Regenerar</button>
+        <div class="history-nif"></div>
+    </div>
+    <div class="block" id="nieBlock">
+        <span class="title">NIE</span>
+        <input type="text" id="nie" name="nif"><img src="clipboard.png" class="copy" title="click to copy">
+        <button id="btnNie">Regenerar</button>
+        <div class="history-nie"></div>
+    </div>
+
+    <div class="block" id="ibanBlock">
+        <span class="title">IBAN</span>
+        <input type="text" id="iban" name="nif"><img src="clipboard.png" class="copy" title="click to copy">
+        <button id="btnIban"> Regenerar</button>
+        <div class="history-iban"></div>
+    </div>
+  
+  </div>
+  </body>
+</html>
